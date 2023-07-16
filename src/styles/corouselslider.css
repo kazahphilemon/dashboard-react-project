@@ -1,0 +1,98 @@
+.first-card{
+    background-color: white;
+    border-radius: 10px;
+    height: 28vh;
+    width: 85%;
+    margin-left: 30px;
+   
+}
+.project{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    margin-left: 20px;
+    top: -7px;
+}
+.feedback{
+    width:70px;
+    height: 4vh;
+    background-color: rgba(181, 209, 231, 0.432);
+    font-size: 13px;
+    position: relative;
+    top: 16px;
+    margin-left:25px;
+    text-align: center;
+    border-radius: 5px;
+    color:rgb(85, 115, 139) ;
+}
+.blog{
+    width:50px;
+    height: 4vh;
+    background-color: rgba(188, 218, 157, 0.603);
+    font-size: 13px;
+    position: relative;
+    top: -27px;
+    margin-left:120px ;
+    text-align: center;
+    border-radius: 5px;
+    color:rgb(118, 145, 92) ;
+} 
+.design-system{
+    width:100px;
+    height: 4vh;
+    background-color: rgba(221, 186, 226, 0.603);
+    font-size: 13px;
+    position: relative;
+    top: -70px;
+    margin-left:195px ;
+    text-align: center;
+    border-radius: 5px;
+    color:rgb(168, 115, 150) ;
+} 
+.improve-cardR{
+    font-size: 17px;
+    position: relative;
+    top: -65px;
+    margin-left: 25px;
+    color: black;
+    float: left;
+}
+.date{
+    font-size: 15px;
+    position: relative;
+    top: -40px;
+    float: left;
+    margin-left: -195px;
+    color: black;
+}
+
+.comment-file{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 5px;
+    margin-left:140px ;
+    justify-content: space-between;
+}
+
+.comments{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    color: black;
+    margin-right: 10px;
+}
+.files{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    color: black;
+}
+.comments-style{
+    margin-top: -3px;
+    margin-left: 5px;
+}
+.file-style{
+    margin-top: -2px;
+    margin-left: 5px;
+}

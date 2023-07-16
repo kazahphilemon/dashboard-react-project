@@ -1,0 +1,101 @@
+.task_div{
+    width: 90rem;
+    height: 50vh;
+    border: 1px;
+    background-color:white;
+    margin-top: 20px;
+    border-radius: 10px;       
+}
+
+.task{
+    position: relative;
+    justify-content: space-between;
+    top: 20px;
+}
+.last-task{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.last-task h1{
+    font-size: 25px;
+}
+.last-task p{
+    font-size: 15px;
+}
+
+.Count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right;
+    font-size: 20px;
+    margin-top: -70px;
+}
+.count-down h1{
+    position: relative;
+    right: 65px;
+    font-size: 25px;
+
+}
+.count-down p{
+    position: relative;
+    font-size: 15px;
+    right: 70px;
+}
+
+.count-progress h1{
+    position: relative;
+    right: -17px;
+    font-size: 25px ;
+}
+.count-progress p{
+    position: relative;
+    font-size: 15px;
+    right: 5px;
+}
+
+
+.detail{
+    margin-left: 20px;
+    /* margin-top: -200px; */
+}
+.detail label{
+    margin-left: 10px;
+}
+hr{
+   position: relative;
+   top: 5px;
+   width: 47rem;
+   left: 20px; 
+}
+.hr1{
+    margin-top: 255px;
+    color: black;
+    top: -230px;
+    width: px;
+    position: absolute;
+    left: 20px;
+}
+.details{
+    font-size: 13px;
+    top:0px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.status-progress{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(89, 89, 214, 0.205);
+    color: blue;
+    width: 100px;
+    border-radius: 2px;
+}
+.status-done{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(127, 255, 212, 0.301);
+    color: green;
+    width: 100px;
+}

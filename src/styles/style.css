@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: #b5c2c9;
+}
+.hr{
+    width: 100%;
+    margin-left:-20px;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 94%;
+    border: 1px;
+    background-color:white;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+}
+.nav-button ul, li{
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+}
+.nav-button li:hover{
+background-color: black;
+color: white;
+border-radius: 100px;
+}
+.tasklist-btn{
+    width:240px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    
+}
+.task_list_icon{
+    width:20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -140px;
+}
+.active, .tasklist-btn{
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    
+}
+.icons{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.project-btn{
+    margin-right: 30px;
+}
+.service-btn{
+    margin-right: 25px;
+}
+.chat-btn{
+    margin-right: 50px;
+}
+.Notification{
+    margin-left: 40px;
+}
+.numOfNotification{
+    width: 20px;
+    height: 25px;
+    background-color: lawngreen;
+    font-size: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+ .profile-pic{
+    margin-left: 65px;
+    margin-top: 100px;
+    justify-content: center;
+
+} 
+.profile-pic img{
+    width: 45%;
+    height: 13  vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 300px;
+    justify-content: center;
+    object-fit:cover;
+    object-position: center;
+}
+.profile h4{
+    text-align: center;
+    font-size:15px;
+    padding: 10px;
+}
+.profile p{
+    text-align: center;
+    font-size:10px;
+}
+
+.site-logo h1{
+    margin-left: 110px;
+    font-weight: 500;
+    margin-top: -8px;
+}
+.profile-dot{
+    width: 10px;
+    height: 10px;
+    border: 1px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 20px;
+    position: relative;
+    float:right;
+    margin-right: 85px;
+    margin-top: -24px;
+}

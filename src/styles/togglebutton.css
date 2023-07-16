@@ -1,0 +1,177 @@
+.switch{
+    position: relative;
+    width: 200px;
+    height: 20px;
+    border-radius: 25px;
+    margin-top: 13px;
+}
+.switch input{
+    appearance: none;
+    width: 190px;
+    height: 40px;
+    border-radius: 25px;
+    background-color:rgba(19, 16, 16, 0.068) ;
+    outline: none;
+}
+.switch input::before,
+.switch input::after{
+    z-index: 2;
+    position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    font-weight: bolder;
+}
+.switch input::before{
+    content: 'card';
+    left:45px;
+    margin-top:5px;
+    font-size: 20px;
+}
+.switch input::after{
+    content: 'list';
+    right:35px;
+    margin-top:5px;
+    font-size: 20px;
+}
+.switch input:checked{
+    background-color:#e7e7e785 ;
+}
+.switch label{
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    bottom:4px;
+    border-radius: 20px;
+}
+.switch input{
+    transition:0.25s;
+}
+.switch input:checked::before{
+    color: #b5c2c9;
+    transition: color 0.5s;
+}
+.switch input:checked::after{
+    color: black;
+    transition: color 0.5s;
+}
+.switch input:checked+label{
+    left: 4px;
+    right: 100px;
+    background: black;
+    transition: left 0.5s, right 0.4s ;
+    height: 6vh;
+    top: 0px;
+}
+.switch input:not(:checked){
+    transition: background 0.4s;
+}
+.switch input:not(:checked)::before{
+    color: black;
+    transition: color 0.5s;
+}
+.switch input:not(:checked)::after{
+    color: black;
+    transition: color 0.5s;
+}
+.switch input:not(:checked)+label{
+    left: 100px;
+    right: 10px;
+    background: #b5c2c9;
+    height: 6vh;
+    top: 0px;
+    transition: left 0.4s 0.2s, right 0.5s, background 0.35s;
+}
+
+
+
+/* 
+.switch{
+    position: relative;
+    width: 200px;
+    height: 20px;
+    border-radius: 25px;
+    margin-top: 13px;
+}
+.switch input{
+    appearance:none;
+    width: 190px;
+    height: 40px;
+    border-radius: 25px;
+    background-color:  rgba(19, 16, 16, 0.068)  ;
+    outline: none;
+}
+.switch input::before,
+.switch input::after{
+    z-index: 2;
+    position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    font-weight: bolder;
+}
+.switch input::before{
+    content: "card";
+    left:50px;
+    margin-top:5px;
+    font-size: 20px;
+}
+.switch input::after{
+    content: "list";
+    right:35px;
+    margin-top:5px;
+    font-size: 20px;
+}
+.switch input:checked{
+    background-color: #e7e7e785;
+}
+
+.switch label{
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    bottom:4px;
+    border-radius: 20px;
+}
+.switch input{
+    transition: 0.25s; 
+}
+.switch input:checked::before{
+    color: #b5c2c9;
+    transition: color 0.5s;
+}
+.switch input:checked::after{
+    color: black;
+    transition: color 0.5s;
+}
+
+.switch input:checked+label{
+    left:10px;
+    right:100px;
+    background:black;
+    transition: left 0.5s, right 0.4s;
+    height: 5vh;
+    top: 4px;
+}
+.switch input:not(:checked){
+    /* background: transparent; */
+    /* transition: background 0.4s;
+}
+
+.switch input:not(:checked)::before{
+    color: black;
+    transition: color 0.5s;
+
+}
+.switch input:not(:checked)::after{
+    color: black;
+    transition: color 0.5s 0.2s;
+    
+}
+.switch input:not(:checked)+label{
+    left:100px;
+    right:10px;
+    background:#b5c2c9;
+    height: 5vh;
+    top: 2px;
+    transition: left 0.4s 0.2s, right 0.5s, background 0.35s;
+
+}  */
